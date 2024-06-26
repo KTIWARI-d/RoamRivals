@@ -12,7 +12,7 @@ import PasswordScreen from './screens/PasswordScreen';
 import LoginScreen from './screens/LoginScreen';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import QuizLandingScreen from './screens/QuizLandingScreen';
-
+import CompetetionCard from './screens/CompetetionCard';
 
 const Stack = createStackNavigator();
 
@@ -29,7 +29,7 @@ const App = () => {
     //   </Stack.Navigator>
     // </NavigationContainer>
     <SafeAreaView style={styles.container}>
-      <QuizLandingScreen/>
+      <CompetetionCard/>
     </SafeAreaView>
   );
 };
